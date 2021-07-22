@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'KittiDataset'
-data_root = '/data/Dataset/KITTI'
+data_root = '/data/Dataset/KITTI/'
 class_names = ['Car']
 point_cloud_range = [0, -40, -3, 70.4, 40, 1]
 input_modality = dict(use_lidar=True, use_camera=False)
